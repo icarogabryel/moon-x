@@ -14,7 +14,6 @@ entity bank_register is
         wr_addr               : in  std_logic_vector(3 downto 0);
         data_in               : in  std_logic_vector(15 downto 0)
     );
-
 end entity bank_register;
 
 architecture behavior of bank_register is
