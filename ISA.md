@@ -4,7 +4,7 @@
 
 - nope
 
-## Arithmetic and Logic - 11
+## Arithmetic and Logic - 12
 
 - add
 - sub
@@ -21,6 +21,8 @@
 - srl
 - sra
 
+- cmp
+
 ## Immediate - 7
 
 - addi
@@ -33,14 +35,13 @@
 - lui
 - lsi
 
-## Memory Access - 6
+## Memory Access - 5
 
 - lw
 - sw
-- lb
-- sb
-- pop
-- push
+- lh
+- sh
+- mov
 
 ## Control - 6
 
