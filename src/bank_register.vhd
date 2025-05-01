@@ -7,12 +7,12 @@ entity bank_register is
         clk                   : in  std_logic;
         rst                   : in  std_logic;
         ctrl_wr_bank_register : in  std_logic;
+        wr_addr               : in  std_logic_vector(3 downto 0);
+        data_in               : in  std_logic_vector(15 downto 0);
         rd_addr_1             : in  std_logic_vector(3 downto 0);
         rd_addr_2             : in  std_logic_vector(3 downto 0);
         data_out_1            : out std_logic_vector(15 downto 0);
-        data_out_2            : out std_logic_vector(15 downto 0);
-        wr_addr               : in  std_logic_vector(3 downto 0);
-        data_in               : in  std_logic_vector(15 downto 0)
+        data_out_2            : out std_logic_vector(15 downto 0)
     );
 end entity bank_register;
 
